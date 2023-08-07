@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+
+html {
+  font-family: "Space Grotesk", sans-serif;
+}
+.order-banner {
+  border-top: 4px solid rgba(128, 128, 128, 0.26);
+  border-bottom: 4px solid rgba(128, 128, 128, 0.26);
+  width: 300px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
