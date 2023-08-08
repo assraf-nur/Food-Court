@@ -68,13 +68,13 @@ export default function OnlineOrder() {
       </div>
 
       <div className="mt-20 relative">
-        <img className="" src={chef} alt="" />
+        <img className="w-full" src={chef} alt="" />
         <div className="absolute top-0 left-0 right-0 bottom-0 bg-opacity-75"></div>
-        <div className="w-8/12 mx-auto p-16 shadow-lg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white">
-          <h2 className="text-center text-5xl mb-4 font-semibold">
+        <div className="w-11/12 md:w-8/12 mx-auto p-8 md:p-16 shadow-lg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white">
+          <h2 className="text-center text-3xl md:text-5xl lg:text-6xl mb-4 font-semibold">
             <ReactTypingEffect text={["_Bistro Boss_"]} />
           </h2>
-          <p className="text-center">
+          <p className="text-center text-sm md:text-base lg:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Necessitatibus, libero accusamus laborum deserunt ratione dolor
             officiis praesentium! Deserunt magni aperiam dolor eius dolore at,
