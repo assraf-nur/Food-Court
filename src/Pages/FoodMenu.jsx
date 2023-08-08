@@ -35,6 +35,10 @@ export default function FoodMenu() {
           View Full Menu
         </button>
       </div>
+
+      <div className="px-24 py-16 bg-black text-white md:text-4xl w-6/12 mx-auto mt-12 rounded-md">
+        <h1 className="text-center">Call Us: +88 0192345678910</h1>
+      </div>
     </div>
   );
 }
