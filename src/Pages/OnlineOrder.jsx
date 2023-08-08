@@ -10,6 +10,7 @@ import slideTwo from "../assets/Images/slide2.jpg";
 import slideThree from "../assets/Images/slide3.jpg";
 import slideFour from "../assets/Images/slide4.jpg";
 import slideFive from "../assets/Images/slide5.jpg";
+import chef from "../assets/Images/chef-service.jpg";
 
 // import required modules
 import { Pagination } from "swiper/modules";
@@ -26,7 +27,7 @@ export default function OnlineOrder() {
         </div>
       </div>
 
-      <div className="mb-12">
+      <div>
         <Swiper
           slidesPerView={5}
           spaceBetween={30}
@@ -70,8 +71,11 @@ export default function OnlineOrder() {
         </Swiper>
       </div>
 
-      <div>
-        
+      <div className="mt-20">
+        <img src={chef} alt="" />
+        <div>
+          
+        </div>
       </div>
     </div>
   );
