@@ -1,19 +1,15 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-
 import slideOne from "../assets/Images/slide1.jpg";
 import slideTwo from "../assets/Images/slide2.jpg";
 import slideThree from "../assets/Images/slide3.jpg";
 import slideFour from "../assets/Images/slide4.jpg";
 import slideFive from "../assets/Images/slide5.jpg";
 import chef from "../assets/Images/chef-service.jpg";
-
-// import required modules
 import { Pagination } from "swiper/modules";
+import ReactTypingEffect from "react-typing-effect";
 
 export default function OnlineOrder() {
   return (
@@ -71,10 +67,19 @@ export default function OnlineOrder() {
         </Swiper>
       </div>
 
-      <div className="mt-20">
-        <img src={chef} alt="" />
-        <div>
-          
+      <div className="mt-20 relative">
+        <img className="" src={chef} alt="" />
+        <div className="absolute top-0 left-0 right-0 bottom-0 bg-opacity-75"></div>
+        <div className="w-8/12 mx-auto p-16 shadow-lg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white">
+          <h2 className="text-center text-5xl mb-4 font-semibold">
+            <ReactTypingEffect text={["_Bistro Boss_"]} />
+          </h2>
+          <p className="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, libero accusamus laborum deserunt ratione dolor
+            officiis praesentium! Deserunt magni aperiam dolor eius dolore at,
+            nihil iusto ducimus incidunt quibusdam nemo.
+          </p>
         </div>
       </div>
     </div>
