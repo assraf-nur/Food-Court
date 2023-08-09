@@ -1,6 +1,7 @@
 import Banner from "./Banner";
 import FoodMenu from "./FoodMenu";
 import OnlineOrder from "./OnlineOrder";
+import Recommends from "./Recommends";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Banner />
       <OnlineOrder />
       <FoodMenu />
+      <Recommends />
     </div>
   );
 }
